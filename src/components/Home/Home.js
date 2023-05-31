@@ -1,7 +1,9 @@
 import Guide from '../../Guide';
+import About from '../About';
 import Header from '../Header';
 import Hero from '../Hero';
-import Specials from '../Specials/Specials';
+import Specials from '../Specials';
+import Testimonials from '../Testimonials';
 
 function Home() {
   return (
@@ -10,13 +12,15 @@ function Home() {
         <img
           src="/preview.svg"
           alt="preview"
-          className="w-[1440px] mt-10 mx-auto"
+          className="w-[1440px] mt-36 mx-auto"
         />
       </Guide>
-      <div className="absolute z-50 flex flex-col w-full h-full top-0 left-0">
+      <div className="absolute z-50 flex flex-col w-full top-0 left-0">
         <Header />
         <Hero />
         <Specials />
+        <Testimonials />
+        <About />
       </div>
     </div>
   );
