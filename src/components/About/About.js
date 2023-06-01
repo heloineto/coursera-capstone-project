@@ -19,12 +19,12 @@ function About() {
         </div>
         <div className="relative">
           <img
-            className="bg-slate-300 w-[276px] h-[338px] absolute -bottom-12 object-cover object-right rounded-lg"
+            className="w-[276px] h-[338px] absolute -bottom-12 object-cover object-right rounded-lg"
             src="/assets/mario-and-adrian-laughing.jpg"
             alt="Mario and Adrian laughing"
           />
           <img
-            className="bg-red-300 w-[276px] h-[338px] absolute top-0 right-0 object-cover rounded-lg"
+            className="w-[276px] h-[338px] absolute top-0 right-0 object-cover rounded-lg"
             src="/assets/mario-and-adrian-talking.jpg"
             alt="Mario and Adrian talking"
           />

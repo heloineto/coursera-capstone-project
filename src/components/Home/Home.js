@@ -1,5 +1,6 @@
 import Guide from '../../Guide';
 import About from '../About';
+import Footer from '../Footer';
 import Header from '../Header';
 import Hero from '../Hero';
 import Specials from '../Specials';
@@ -12,7 +13,7 @@ function Home() {
         <img
           src="/preview.svg"
           alt="preview"
-          className="w-[1440px] mt-36 mx-auto"
+          className="w-[1440px] mt-[220px] mx-auto"
         />
       </Guide>
       <div className="absolute z-50 flex flex-col w-full top-0 left-0">
@@ -21,6 +22,7 @@ function Home() {
         <Specials />
         <Testimonials />
         <About />
+        <Footer />
       </div>
     </div>
   );
