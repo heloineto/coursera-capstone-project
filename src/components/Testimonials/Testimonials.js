@@ -31,15 +31,15 @@ const testimonials = [
 
 function Testimonials() {
   return (
-    <div className="w-full flex flex-col mt-[76px] pt-[122px] pb-[181px] bg-[#495E57]">
+    <div className="w-full flex flex-col mt-[76px] pt-[50px] lg:pt-[122px] pb-[80px] lg:pb-[181px] bg-[#495E57]">
       <h2 className="mx-auto font-bold text-[36px] font-[Markazi] text-white">
         Testimonials
       </h2>
-      <div className="mx-auto w-[858px] gap-5 grid grid-cols-4">
+      <div className="px-4 lg:px-0 lg:mx-auto lg:w-[858px] mt-[54px] gap-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
         {testimonials.map(({ image, name, rating, review }) => (
           <div
             key={name}
-            className="bg-white py-[25px] flex flex-col mt-[54px] px-[24px] gap-2.5"
+            className="bg-white py-[25px] flex flex-col px-[24px] gap-2.5"
           >
             <p className="text-bold">Rating: {rating} / 10</p>
             <div className="flex items-center gap-[12px]">

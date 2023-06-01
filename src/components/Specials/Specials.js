@@ -26,7 +26,7 @@ const specials = [
 
 function Specials() {
   return (
-    <div className="mx-auto w-[858px] mt-[130px]">
+    <div className="px-4 lg:px-0 lg:mx-auto lg:w-[858px] mt-[130px]">
       <div className="flex justify-between items-center">
         <h2 className="text-[40px] font-medium">Specials</h2>
         <NavLink to="#">
@@ -38,14 +38,14 @@ function Specials() {
           </button>
         </NavLink>
       </div>
-      <div className="grid grid-cols-3 gap-[34px] mt-[54px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[34px] mt-[54px]">
         {specials.map((special) => (
           <div
             key={special.title}
             className="bg-[#EDEFEE] rounded-xl overflow-hidden flex flex-col shadow"
           >
             <img
-              className="h-[185px] w-full object-cover shadow-xl"
+              className="h-[185px] w-full object-cover shadow-xl hover:scale-105 transition-all"
               src={special.image}
               alt="restaurant food"
             />

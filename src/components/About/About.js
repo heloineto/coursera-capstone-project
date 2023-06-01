@@ -1,7 +1,7 @@
 function About() {
   return (
-    <div className="mx-auto w-[858px] mt-[64px]">
-      <div className="grid grid-cols-[0.75fr_1fr] gap-[50px]">
+    <div className="px-4 lg:mx-auto lg:px-0 lg:w-[858px] mt-[64px]">
+      <div className="grid grid-cols-1 md:grid-cols-[0.75fr_1fr] gap-[50px]">
         <div>
           <h1 className="text-[50px] font-[Markazi] font-bold">Little Lemon</h1>
           <p className="text-[30px] font-[Markazi] font-bold -mt-2.5">
@@ -17,14 +17,14 @@ function About() {
             world.
           </p>
         </div>
-        <div className="relative">
+        <div className="relative h-[300px] md:h-auto">
           <img
-            className="w-[276px] h-[338px] absolute -bottom-12 object-cover object-right rounded-lg"
+            className="w-[70%] h-[200px] md:w-[276px] md:h-[338px] absolute -bottom-12 object-cover object-right rounded-lg"
             src="/assets/mario-and-adrian-laughing.jpg"
             alt="Mario and Adrian laughing"
           />
           <img
-            className="w-[276px] h-[338px] absolute top-0 right-0 object-cover rounded-lg"
+            className="w-[70%] h-[200px] md:w-[276px] md:h-[338px] absolute top-0 right-0 object-cover rounded-lg"
             src="/assets/mario-and-adrian-talking.jpg"
             alt="Mario and Adrian talking"
           />
