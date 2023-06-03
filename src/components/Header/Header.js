@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
-const navLinks = [
+export const navLinks = [
   { label: 'Home', to: '/' },
   { label: 'About', to: '#' },
   { label: 'Menu', to: '#' },

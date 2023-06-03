@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-const footerSections = [
+export const footerSections = [
   {
     label: 'Navigation',
     links: [

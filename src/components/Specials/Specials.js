@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-const specials = [
+export const specials = [
   {
     image: '/assets/greek-salad.jpg',
     title: 'Greek Salad',

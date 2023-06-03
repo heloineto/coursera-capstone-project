@@ -3,7 +3,7 @@ function About() {
     <div className="px-4 lg:mx-auto lg:px-0 lg:w-[858px] mt-[64px]">
       <div className="grid grid-cols-1 md:grid-cols-[0.75fr_1fr] gap-[50px]">
         <div>
-          <h1 className="text-[50px] font-[Markazi] font-bold">Little Lemon</h1>
+          <h2 className="text-[50px] font-[Markazi] font-bold">Little Lemon</h2>
           <p className="text-[30px] font-[Markazi] font-bold -mt-2.5">
             Chicago
           </p>

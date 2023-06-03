@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Layout from './pages/Layout';
 import Reservations from './pages/Reservations';
 
-const router = createBrowserRouter([
+export const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
