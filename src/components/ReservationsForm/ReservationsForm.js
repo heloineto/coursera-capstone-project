@@ -2,8 +2,11 @@ import { Formik } from 'formik';
 import Input from '../Input/Input';
 import Select from '../Select';
 import reservationSchema from './reservationSchema';
+import { useRef } from 'react';
 
 function ReservationsForm() {
+  const formikRef = useRef(null);
+
   return (
     <div className="relative grow flex -mb-[90px] w-full overflow-hidden">
       <img
@@ -19,8 +22,10 @@ function ReservationsForm() {
           occasion: '',
         }}
         validationSchema={reservationSchema}
+        innerRef={formikRef}
         onSubmit={(values) => {
-          console.log(values);
+          alert(JSON.stringify(values, null, 2));
+          formikRef.current.resetForm();
         }}
       >
         {({ handleSubmit, handleChange, values }) => (
